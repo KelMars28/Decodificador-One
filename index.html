@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Raquel Martins">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js"></script>
+  </head>
+  <body>
+     <footer>
+        <p>Desenvolvido por Raquel Martins - 2024</p>
+    </footer>
+</body>
+    <main>
+      <section class="container">
+        <div class="div-um">
+          <div> 
+            <img src="./logo.png"/>
+          </div>
+        </div>
+
+        <div class="div-dois">
+          <div class="text">
+
+            
+            <textarea
+              class="textarea"
+              name="textarea"
+              rows="30"
+              cols="80"
+              placeholder="Digite seu texto aqui"
+              id="texto"
+            ></textarea>
+          </div>
+          <div class="div-icon">
+            <img src="./icon.png" />
+            <p>Atenção! Digite apenas letras minusculas e sem acento e sem caracteres especiais</p>
+          </div>
+
+          <div class="botoes">
+            <button class="button-crip" onclick="criptografar()">
+              Criptografar
+            </button>
+          
+          </div>
+        </div>
+
+        <div class="div-tres">
+          <img src="./img.png" />
+
+          <h1 id="resultado"></h1>
+
+          <div class="div-button-des">
+              <button class="button-des" onclick="descriptografar()">
+              Descriptografar
+            </button>
+
+             <button class="button-des" onclick="copiarResultado()">
+              Copiar
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
