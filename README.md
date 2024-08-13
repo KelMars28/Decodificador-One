@@ -1,2 +1,2 @@
 # Decodificador-One
-O projeto consiste em um criptografador de texto. Ele possui um campo para digitar o texto a ser criptografado e outro campo para exibir o resultado. Além disso, há um botão que permite copiar o texto criptografado, facilitando o compartilhamento.
+Este projeto foi desenvolvido como parte do curso Iniciante em Programação ONE, em parceria com a Alura, com o objetivo de aplicar na prática os conhecimentos adquiridos durante as aulas e exercícios. O projeto, que serve como trabalho de conclusão, consiste em um criptografador de texto. Ele possui um campo para digitar o texto a ser criptografado e outro campo para exibir o resultado. Além disso, há um botão que permite copiar o texto criptografado, facilitando o compartilhamento.
